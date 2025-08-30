@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'fontawsome';
+    src:url('../fonts2/fa-solid-900.woff2')
+    
+}
+section{
+    width: 90%;
+   margin: 0 auto;
+}
+.content i{
+    font-family: 'fontawsome';
+    font-weight: 900;
+}
+.item{
+    width: 100%;
+  margin-top: 30px;
+    /* border: 2px solid red;*/
+     
+}
+.content{
+    width: 23%;
+    float: left;
+   /* border: 1px solid green;*/
+    margin-left: 30px;
+    height: 300px;
+    padding: 20px;
+ line-height: 25px;
+  transition: transform 2s, background-color 2s;
+}
+.content:hover{
+    transform: translate(25px,40px);
+    background-color: #0f9c6d;
+   
+     transition-delay: 3s;
+     width: 25%;
+}
+.content:first-child{
+    box-shadow: 5px 5px 10px lightgray,-5px -5px 10px lightgray;
+    width: 20%;
+}
+.content:nth-child(2){
+     box-shadow: 5px 5px 10px lightgray,-5px -5px 10px lightgray;
+     width: 20%;
+}
+.content:nth-child(3){
+     box-shadow: 5px 5px 10px lightgray,-5px -5px 10px lightgray;
+     width: 20%;
+}
+.content i{
+    font-size: 20px;
+    color: #0f9c6d;
+    text-align: center;
+    position: relative;
+    left: 28%;
+    background-color: #eee;
+    padding: 30px;
+    
+   
+}
+.content h3{
+    text-align: center;
+    padding: 10px;
+}
+.content:first-child p{
+    text-align: center;
+}
+.content:nth-child(2) p{
+    text-align: center;
+}
+.content:nth-child(3) p{
+    text-align: center;
+}
+.content legend{
+    color: #0f9c6d;
+   padding-top: 0;
+}
+.content:nth-child(4) p{
+    padding: 10px;
+    width: 100%;
+    margin-top: 0;
+}
+.content:nth-child(4) span{
+    background-color: #0f9c6d;
+   padding: 10px 15px;
+   color:#ddd;
+  
+}
